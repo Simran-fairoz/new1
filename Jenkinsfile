@@ -18,4 +18,9 @@ pipeline {
             }
         }
     }
+    post{
+        always{
+            emailext body: 'saafaf', subject: 'hiasda', to: 'simranofficial55@gmail.com'
+        }
+    }
 }
